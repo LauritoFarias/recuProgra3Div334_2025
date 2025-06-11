@@ -50,7 +50,7 @@ function init() {
 }
 
 /*
-
+Uso los datos del objeto alumno directamente para imprimirlos. Genero un nuevo header antes del body.
 */
 
 // Ejercicio 3
@@ -72,7 +72,7 @@ function mostrarProductos(arrayProductos) {
 }
 
 /*
-
+Tengo que generar un pequeño código HTML por cada producto a mostrar. Uso 'forEach' porque tiene mejor performance que 'for'.
 */
 
 // Ejercicio 4
@@ -90,6 +90,11 @@ function filtrarFrutas(input) {
     );
     mostrarProductos(filtrados);
 }
+
+/*
+Le agrego un manejador de eventos al input. Uso ´filter´ para filtrar datos ya que tiene mejor performance que 'for' o
+'foreach'
+*/
 
 // Ejercicio 5
 
